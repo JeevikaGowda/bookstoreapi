@@ -1,0 +1,14 @@
+{
+  "name": "bookstore-app",
+  "version": "1.0.0",
+  "description": "Bookstore application",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
